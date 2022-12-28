@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>prime numbers</title>
+</head>
+<body>
+   <script>
+      
+	  // primeNumber
+	  
+	  let number = prompt("enter a number"); 
+	  let ans=0;
+	  if(number==1 || number==0 )
+	  flag = 1;
+	  
+	  for(i=2; i<=number/2; ++i){
+	     if(number%=0){
+		    ans=1;
+		 }
+	  }
+	  if(ans==0){
+	     document.write("it is a prime number", number)
+	  }
+	  else{
+	     document.write("it is not a prime number", number)
+	  }
+   </script>
+</body>
+</html>
